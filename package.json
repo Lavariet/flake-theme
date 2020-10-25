@@ -1,0 +1,21 @@
+{
+    "name": "flake-theme",
+    "displayName": "Flake Theme",
+    "description": "Just a colorful Theme, also comments are red ",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.49.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Flake Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Flake Theme-color-theme.json"
+            }
+        ]
+    }
+}
